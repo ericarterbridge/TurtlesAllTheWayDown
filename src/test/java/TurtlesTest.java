@@ -30,4 +30,11 @@ public class TurtlesTest {
         Assert.assertEquals(expected, actual);
     }
 
+    @Test
+    public void gcdTest(){
+        int expected = 24;
+        int actual = turtles.gcd(1440, 408);
+        Assert.assertEquals(expected, actual);
+    }
+
 }
